@@ -1,0 +1,30 @@
+body {
+  background: rgb(40, 0, 20);
+}
+
+.header {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    z-index: 100;
+    color:white;
+    font-size: 2rem;
+    margin: -0.5rem;
+    position: fixed;
+    background: rgb(8, 80, 120);
+    width: 100vw;
+    height: 10vh;
+    display: grid;
+    justify-items: center;
+}
+
+.glasses-img {
+  background-image: url("../images/ai-blur-codes-577585.jpg");
+  background-position: center;
+  background-size: 100vmax;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
